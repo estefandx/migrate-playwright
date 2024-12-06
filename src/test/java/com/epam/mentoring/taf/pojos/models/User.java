@@ -1,7 +1,9 @@
 package com.epam.mentoring.taf.pojos.models;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class User {
 
     @JsonProperty("email")
@@ -21,6 +23,12 @@ public class User {
         this.email = email;
         this.password = password;
         this.username = username;
+    }
+
+    public User(String email, String password) {
+        this.email = email;
+        this.password = password;
+
     }
 
 

@@ -4,12 +4,10 @@ import com.epam.mentoring.taf.api.FollowApi;
 import com.epam.mentoring.taf.pojos.FollowUser;
 import com.epam.mentoring.taf.pojos.models.response.ProfileResponse;
 import com.epam.mentoring.taf.pojos.models.response.articles.ArticleResponse;
-import com.epam.mentoring.taf.pojos.models.response.Profile;
 import com.epam.mentoring.taf.utils.JsonReader;
-import com.epam.mentoring.taf.utils.StringUtils;
-import io.restassured.http.ContentType;
+
 import io.restassured.response.Response;
-import jdk.jfr.Description;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -18,8 +16,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.epam.mentoring.taf.AbstractTest.API_URL;
-import static io.restassured.RestAssured.given;
+
 
 public class FollowUsersTest extends AbstractApiTest {
 

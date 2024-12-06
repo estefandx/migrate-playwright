@@ -1,6 +1,11 @@
 package com.epam.mentoring.taf;
 
+import com.epam.mentoring.taf.api.UserApi;
+import com.epam.mentoring.taf.pojos.models.User;
+import com.epam.mentoring.taf.pojos.models.request.UserRequest;
+import com.epam.mentoring.taf.utils.StringUtils;
 import io.restassured.http.ContentType;
+import io.restassured.response.Response;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
@@ -43,39 +48,37 @@ public class FollowUserSignUpTest extends AbstractTest {
 
     @Test
     public void apiVerification() {
-        String[] userDetails = generateUniqueUserDetails(this.username, this.email);
+        StringUtils stringUtils = new StringUtils();
+        String[] userDetails = stringUtils.generateUniqueUserDetails("usertest", "emailtest@test");
         String username = userDetails[0];
         String email = userDetails[1];
 
-        given().baseUri(API_URL)
-                .when().contentType(ContentType.JSON)
-                .body(String.format("{\"user\":{\"email\":\"%s\",\"password\":\"%s\",\"username\":\"%s\"}}", email, password, username))
-                .post("/api/users")
-                .then().statusCode(201);
+        User user = new User(email, "password", username);
+        UserRequest userRequest = new UserRequest(user);
+        Response response = UserApi.createUser(userRequest);
+        Assert.assertEquals(response.statusCode(),201);
     }
 
     @Test
     public void apiAlreadyRegisteredVerification() {
-        given()
-                .baseUri(API_URL)
-                .when()
-                .contentType(ContentType.JSON)
-                .body(String.format("{\"user\":{\"email\":\"%s\",\"password\":\"%s\",\"username\":\"%s\"}}", email, password, username))
-                .post("/api/users").then().statusCode(422)
-                 .body("errors.body[0]", equalTo("Email already exists.. try logging in"));
 
+        User user = new User(email, password, username);
+        UserRequest userRequest = new UserRequest(user);
+        Response response = UserApi.createUser(userRequest);
+
+        Assert.assertEquals(response.statusCode(),422);
+        Assert.assertEquals(response.body().path("errors.body[0]"),"Email already exists.. try logging in");
     }
 
     @Test
     public void apiWrongEmailVerification() {
-        given()
-                .baseUri(API_URL)
-                .when()
-                .contentType(ContentType.JSON)
-                .body(String.format("{\"user\":{\"email\":\"%s\",\"password\":\"%s\",\"username\":\"%s\"}}", "wrong_email", password, username))
-                .post("/api/users").then()
-                .statusCode(422)
-                .body("errors.body[0]", equalTo("Email already exists.. try logging in"));
+
+        User user = new User("wrong_email", password, username);
+        UserRequest userRequest = new UserRequest(user);
+        Response response = UserApi.createUser(userRequest);
+        Assert.assertEquals(response.statusCode(),422);
+        Assert.assertEquals(response.body().path("errors.body[0]"),"Email already exists.. try logging in");
+
     }
 
 }
