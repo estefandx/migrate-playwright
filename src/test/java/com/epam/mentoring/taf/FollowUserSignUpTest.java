@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasItem;
 
-public class UserSignUpTest extends AbstractTest {
+public class FollowUserSignUpTest extends AbstractTest {
     private final String username = "Test User";
     private final String email = "test_user@example.com";
     private final String password = "test_password";

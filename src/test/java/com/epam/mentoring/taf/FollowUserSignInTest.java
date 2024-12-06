@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class UserSignInTest extends AbstractTest {
+public class FollowUserSignInTest extends AbstractTest {
     private final String email = "tom_marvolo@example.com";
     private final String password = "Voldemort";
     private final String loginMenu = "//li/a[text()='Login']";
