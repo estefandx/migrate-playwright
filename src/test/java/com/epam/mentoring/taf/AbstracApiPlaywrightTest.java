@@ -10,11 +10,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.microsoft.playwright.APIResponse;
 import org.testng.annotations.BeforeMethod;
 
-public class AbstracApiTestPlaywright {
+public class AbstracApiPlaywrightTest {
 
     protected String  token;
 
-    @BeforeMethod
+    @BeforeMethod()
     public void setup() throws JsonProcessingException {
         StringUtils stringUtils = new StringUtils();
         String[] userDetails = stringUtils.generateUniqueUserDetails("usertest", "emailtest@test");

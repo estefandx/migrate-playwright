@@ -1,7 +1,6 @@
 package com.epam.mentoring.taf;
 
 import com.epam.mentoring.taf.api.UserApiPlaywright;
-import com.epam.mentoring.taf.page.SignUpPage;
 import com.epam.mentoring.taf.pojos.models.User;
 import com.epam.mentoring.taf.pojos.models.request.UserRequest;
 import com.epam.mentoring.taf.utils.StringUtils;
@@ -13,32 +12,12 @@ import com.microsoft.playwright.APIResponse;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class FollowUserSignUpTestPlaywright  extends  AbstractTestPlayright{
+public class FollowUserSignUpApiPlaywrightTest extends AbstractPlayrightTest {
 
     private final String username = "Test User";
     private final String email = "test_user@example.com";
     private final String password = "test_password";
     private final Utilities utilities = new Utilities();
-
-
-
-    @Test
-    public void uiVerification() {
-
-
-        String[] userDetails = utilities.generateUniqueUserDetails(this.username, this.email);
-        String username = userDetails[0];
-        String email = userDetails[1];
-
-
-        SignUpPage signUpPage = new SignUpPage(page);
-        signUpPage.navigateToSignUp();
-        signUpPage.fillSignUpForm(username, email, password);
-        signUpPage.submitSignUpForm();
-        signUpPage.waitForUserProfileImage(username);
-        String actualUserName = signUpPage.getUserProfileName();
-        Assert.assertEquals(actualUserName, username);
-    }
 
     @Test
     public void apiVerification() {
@@ -86,6 +65,4 @@ public class FollowUserSignUpTestPlaywright  extends  AbstractTestPlayright{
         Assert.assertEquals(errorMessage, "Email already exists.. try logging in");
 
     }
-
-
 }

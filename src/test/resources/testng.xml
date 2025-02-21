@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite de Pruebas">
+
+    <test name="Pruebas UI">
+
+        <classes>
+            <class name="com.epam.mentoring.taf.FollowUserSignInPlayrightTest"/>
+            <class name="com.epam.mentoring.taf.FollowUserSignUpPlaywrightTest"/>
+            <class name="com.epam.mentoring.taf.FollowUserSignInApiPlayrightTest"/>
+            <class name="com.epam.mentoring.taf.FollowUserSignUpApiPlaywrightTest"/>
+
+            <class name="com.epam.mentoring.taf.ProfileUserTest"/>
+        </classes>
+    </test>
+</suite>

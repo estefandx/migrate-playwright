@@ -1,0 +1,85 @@
+2025-02-19 15:15:42 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-02-19 15:15:42 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:15:44 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:15:45 [main] INFO  AbstractPlayrightTest - start invalid password
+2025-02-19 15:15:46 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:15:47 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:15:50 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:15:51 [main] INFO  AbstractPlayrightTest - start scenario login successfully
+2025-02-19 15:16:22 [main] INFO  ScreenshotListener - Screenshot saved screenshots/uiVerification.png
+2025-02-19 15:16:22 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:16:22 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:16:24 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:16:24 [main] INFO  AbstractPlayrightTest - start scenario Sing up successfully 
+2025-02-19 15:16:25 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:16:25 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:16:27 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:16:28 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:22:03 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-02-19 15:22:03 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:22:06 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:22:07 [main] INFO  AbstractPlayrightTest - start invalid password
+2025-02-19 15:22:09 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:22:09 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:22:12 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:22:14 [main] INFO  AbstractPlayrightTest - start scenario login successfully
+2025-02-19 15:22:45 [main] INFO  ScreenshotListener - Screenshot saved screenshots/uiVerification.png
+2025-02-19 15:22:45 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:22:47 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:22:50 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:22:52 [main] INFO  AbstractPlayrightTest - start scenario Sing up successfully 
+2025-02-19 15:22:53 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:22:54 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:22:56 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:22:59 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:26:48 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-02-19 15:26:48 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:26:50 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:26:51 [main] INFO  AbstractPlayrightTest - start invalid password
+2025-02-19 15:26:52 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:26:52 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:26:54 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:26:55 [main] INFO  AbstractPlayrightTest - start scenario login successfully
+2025-02-19 15:27:25 [main] INFO  ScreenshotListener - Screenshot saved screenshots/uiVerification.png
+2025-02-19 15:27:25 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:27:26 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:27:27 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:27:28 [main] INFO  AbstractPlayrightTest - start scenario Sing up successfully 
+2025-02-19 15:27:29 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:27:29 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:27:30 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:27:32 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:30:33 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-02-19 15:30:33 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:30:35 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:30:36 [main] INFO  AbstractPlayrightTest - start invalid password
+2025-02-19 15:30:38 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:30:38 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:30:43 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:30:44 [main] INFO  AbstractPlayrightTest - start scenario login successfully
+2025-02-19 15:31:16 [main] INFO  ScreenshotListener - Screenshot saved screenshots/uiVerification.png
+2025-02-19 15:31:16 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:31:16 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:31:18 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:31:19 [main] INFO  AbstractPlayrightTest - start scenario Sing up successfully 
+2025-02-19 15:31:20 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:31:21 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:31:24 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:31:26 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:35:15 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-02-19 15:35:15 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:35:19 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:35:20 [main] INFO  AbstractPlayrightTest - start invalid password
+2025-02-19 15:35:21 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:35:21 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:35:24 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:35:24 [main] INFO  AbstractPlayrightTest - start scenario login successfully
+2025-02-19 15:35:55 [main] INFO  ScreenshotListener - Screenshot saved screenshots/uiVerification.png
+2025-02-19 15:35:55 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:35:56 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:35:59 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:36:00 [main] INFO  AbstractPlayrightTest - start scenario Sing up successfully 
+2025-02-19 15:36:01 [main] INFO  AbstractPlayrightTest - close driver
+2025-02-19 15:36:01 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-02-19 15:36:04 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-02-19 15:36:06 [main] INFO  AbstractPlayrightTest - close driver
