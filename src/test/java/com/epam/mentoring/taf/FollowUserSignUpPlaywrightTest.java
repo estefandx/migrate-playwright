@@ -10,34 +10,41 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.microsoft.playwright.APIResponse;
+import org.apache.commons.csv.CSVFormat;
+import org.apache.commons.csv.CSVParser;
+import org.apache.commons.csv.CSVRecord;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public class FollowUserSignUpPlaywrightTest extends AbstractPlayrightTest {
 
-    private final String username = "Test User";
-    private final String email = "test_user@example.com";
-    private final String password = "test_password";
+
     private final Utilities utilities = new Utilities();
 
-
-
-    @Test(groups = "UI")
-    public void uiVerification() {
+    @Test(dataProvider = "validUserData", dataProviderClass = CsvDataProvider.class,groups = "UI")
+    public void uiVerification(String username, String email, String password, int expectedStatus, String expectedMessage) {
        logger.info("start scenario Sing up successfully ");
 
-        String[] userDetails = utilities.generateUniqueUserDetails(this.username, this.email);
-        String username = userDetails[0];
-        String email = userDetails[1];
+        String[] userDetails = utilities.generateUniqueUserDetails(username, email);
+        String usernameNew = userDetails[0];
+        String emailNew = userDetails[1];
 
 
         SignUpPage signUpPage = new SignUpPage(page);
         signUpPage.navigateToSignUp();
-        signUpPage.fillSignUpForm(username, email, password);
+        signUpPage.fillSignUpForm(usernameNew, emailNew, password);
         signUpPage.submitSignUpForm();
-        signUpPage.waitForUserProfileImage(username);
+        signUpPage.waitForUserProfileImage(usernameNew);
         String actualUserName = signUpPage.getUserProfileName();
-        Assert.assertEquals(actualUserName, username);
+        Assert.assertEquals(actualUserName, usernameNew);
     }
 
 

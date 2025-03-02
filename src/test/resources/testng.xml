@@ -8,7 +8,6 @@
             <class name="com.epam.mentoring.taf.FollowUserSignUpPlaywrightTest"/>
             <class name="com.epam.mentoring.taf.FollowUserSignInApiPlayrightTest"/>
             <class name="com.epam.mentoring.taf.FollowUserSignUpApiPlaywrightTest"/>
-
             <class name="com.epam.mentoring.taf.ProfileUserTest"/>
         </classes>
     </test>

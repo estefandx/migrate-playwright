@@ -18,7 +18,6 @@ public class ProfileUserTest extends AbstractPlayrightTest {
         String username = userDetails[0];
         String email = userDetails[1];
 
-
         SignUpPage signUpPage = new SignUpPage(page);
         HomePage homePage = new HomePage(page);
         ProfilePage profilePage = new ProfilePage(page);

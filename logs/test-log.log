@@ -83,3 +83,127 @@
 2025-02-19 15:36:01 [main] INFO  AbstractPlayrightTest - initializing  driver
 2025-02-19 15:36:04 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
 2025-02-19 15:36:06 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 13:12:30 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 13:12:30 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 13:12:32 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 13:12:33 [main] INFO  AbstractPlayrightTest - start invalid password
+2025-03-02 13:12:34 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 13:12:34 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 13:12:36 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 13:12:37 [main] INFO  AbstractPlayrightTest - start scenario login successfully
+2025-03-02 13:13:08 [main] INFO  ScreenshotListener - Screenshot saved screenshots/uiVerification.png
+2025-03-02 13:13:08 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 13:13:08 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 13:13:10 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 13:13:11 [main] INFO  AbstractPlayrightTest - start scenario Sing up successfully 
+2025-03-02 13:13:11 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 13:13:12 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 13:13:13 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 13:13:15 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 13:16:25 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 13:16:25 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 13:16:27 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 13:16:28 [main] INFO  AbstractPlayrightTest - start invalid password
+2025-03-02 13:16:29 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 13:16:29 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 13:16:32 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 13:16:33 [main] INFO  AbstractPlayrightTest - start scenario login successfully
+2025-03-02 13:16:33 [main] INFO  ScreenshotListener - erro saved the screenshot Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-10775347623439537413\package\lib\server\dispatchers\dispatcher.js:273:44)
+    at transport.onmessage (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-10775347623439537413\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-10775347623439537413\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-03-02 13:16:33 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 13:16:34 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 13:16:36 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 13:16:37 [main] INFO  AbstractPlayrightTest - start scenario Sing up successfully 
+2025-03-02 13:16:37 [main] INFO  ScreenshotListener - erro saved the screenshot Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-10775347623439537413\package\lib\server\dispatchers\dispatcher.js:273:44)
+    at transport.onmessage (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-10775347623439537413\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-10775347623439537413\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-03-02 13:16:37 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 13:16:38 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 13:16:40 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 13:16:41 [main] INFO  ScreenshotListener - erro saved the screenshot Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-10775347623439537413\package\lib\server\dispatchers\dispatcher.js:273:44)
+    at transport.onmessage (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-10775347623439537413\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-10775347623439537413\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-03-02 13:16:41 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 13:27:15 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 13:29:36 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 13:30:26 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 13:42:56 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 13:43:01 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 13:43:02 [main] INFO  AbstractPlayrightTest - start scenario Sing up successfully 
+2025-03-02 13:43:03 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 13:54:00 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 13:54:16 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 13:58:04 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 13:58:35 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 14:05:24 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 14:06:03 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 14:06:10 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 14:06:11 [main] INFO  AbstractPlayrightTest - start scenario Sing up successfully 
+2025-03-02 14:06:12 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 14:10:04 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 14:11:38 [main] INFO  AbstractPlayrightTest - start scenario Sing up successfully 
+2025-03-02 14:11:38 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 14:12:22 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 14:12:28 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 14:12:29 [main] INFO  AbstractPlayrightTest - start scenario Sing up successfully 
+2025-03-02 14:12:36 [main] INFO  ScreenshotListener - erro saved the screenshot Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-6741873122047699792\package\lib\server\dispatchers\dispatcher.js:273:44)
+    at transport.onmessage (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-6741873122047699792\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-6741873122047699792\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-03-02 14:12:36 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 14:12:55 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 14:13:02 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 14:13:02 [main] INFO  AbstractPlayrightTest - start scenario Sing up successfully 
+2025-03-02 14:13:03 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 14:13:20 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 14:13:26 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 14:13:27 [main] INFO  AbstractPlayrightTest - start scenario login successfully
+2025-03-02 14:13:29 [main] INFO  ScreenshotListener - erro saved the screenshot Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-805688524932528670\package\lib\server\dispatchers\dispatcher.js:273:44)
+    at transport.onmessage (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-805688524932528670\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\BRYAN_~1\AppData\Local\Temp\playwright-java-805688524932528670\package\lib\protocol\transport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-03-02 14:13:29 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 14:17:39 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 14:17:45 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 14:17:45 [main] INFO  AbstractPlayrightTest - start invalid password
+2025-03-02 14:17:46 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 14:21:51 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 14:23:31 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 14:24:03 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 14:24:20 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 14:25:13 [main] INFO  AbstractPlayrightTest - initializing  driver
+2025-03-02 14:25:18 [main] INFO  AbstractPlayrightTest - open  page https://conduit-realworld-example-app.fly.dev/
+2025-03-02 14:25:19 [main] INFO  AbstractPlayrightTest - start invalid password
+2025-03-02 14:25:20 [main] INFO  AbstractPlayrightTest - close driver
+2025-03-02 14:26:42 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 14:27:15 [main] WARN  ScreenshotListener - screenshot failed because the object page is null
+2025-03-02 14:28:41 [main] WARN  ScreenshotListener - screenshot failed because the object page is null

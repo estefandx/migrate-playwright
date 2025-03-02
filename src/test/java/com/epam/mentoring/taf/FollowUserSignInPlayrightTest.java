@@ -1,25 +1,16 @@
 package com.epam.mentoring.taf;
 
-import com.epam.mentoring.taf.api.UserApiPlaywright;
+
 import com.epam.mentoring.taf.page.HomePage;
 import com.epam.mentoring.taf.page.LoginPage;
-import com.epam.mentoring.taf.pojos.models.User;
-import com.epam.mentoring.taf.pojos.models.request.UserRequest;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.microsoft.playwright.APIResponse;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class FollowUserSignInPlayrightTest extends AbstractPlayrightTest {
 
-    private final String email = "tom_marvolo@example.com";
-    private final String password = "Voldemort";
-
-    @Test(groups = "UI")
-    public void uiVerification() {
+    @Test(dataProvider = "validUserData", dataProviderClass = CsvDataProvider.class,groups = "UI")
+    public void uiVerification(String username, String email, String password, int expectedStatus, String expectedMessage) {
         logger.info("start scenario login successfully");
         LoginPage loginPage = new LoginPage(page);
         loginPage.goToLoginPage();
@@ -35,8 +26,8 @@ public class FollowUserSignInPlayrightTest extends AbstractPlayrightTest {
         Assert.assertEquals(actualUserName, expectedUserName);
     }
 
-    @Test(groups = "UI")
-    public void uiNegativeVerification() {
+    @Test(dataProvider = "invalidPassword", dataProviderClass = CsvDataProvider.class,groups = "UI")
+    public void uiNegativeVerification(String username, String email, String password, int expectedStatus, String expectedMessage) {
         logger.info("start invalid password");
 
         LoginPage loginPage = new LoginPage(page);

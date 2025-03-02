@@ -12,16 +12,15 @@ import org.testng.annotations.Test;
 
 public class FollowUserSignInApiPlayrightTest extends AbstractPlayrightTest {
 
-    private final String email = "tom_marvolo@example.com";
-    private final String password = "Voldemort";
 
-    @Test
-    public void apiVerification() throws JsonProcessingException {
+    @Test(dataProvider = "validUserData", dataProviderClass = CsvDataProvider.class)
+    public void apiVerification(String username, String email, String password, int expectedStatus, String expectedMessage) throws JsonProcessingException {
+
         User user = new User(email, password);
         UserRequest userRequest = new UserRequest(user);
         APIResponse response = UserApiPlaywright.login(userRequest);
 
-        Assert.assertEquals(response.status(), 200);
+        Assert.assertEquals(response.status(), expectedStatus);
         String responseBody = response.text();
 
         ObjectMapper objectMapper = new ObjectMapper();
@@ -32,10 +31,10 @@ public class FollowUserSignInApiPlayrightTest extends AbstractPlayrightTest {
 
     }
 
-    @Test
-    public void apiNegativeVerification() throws JsonProcessingException {
+    @Test(dataProvider = "invalidPassword", dataProviderClass = CsvDataProvider.class)
+    public void apiNegativeVerification(String username, String email, String password, int expectedStatus, String expectedMessage) throws JsonProcessingException {
 
-        User user = new User(email, "wrong_password");
+        User user = new User(email, expectedMessage);
         UserRequest userRequest = new UserRequest(user);
         APIResponse response = UserApiPlaywright.login(userRequest);
         Assert.assertEquals(response.status(), 422);

@@ -1,0 +1,5 @@
+username,email,password,expectedStatus,expectedMessage,testType
+tom,tom_marvolo@example.com,Voldemort,201,,valid
+tom,tom_marvolo@example.com,Voldemortfff,200,Wrong email/password combination,invalidpassword
+user2,email2@example.com,pass123,422,Email already exists.. try logging in,alreadyRegistered
+user3,wrong_email,pass123,422,Email already exists.. try logging in,invalidEmail
