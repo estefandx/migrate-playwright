@@ -22,7 +22,7 @@ public class StringUtils {
     public String[] generateUniqueUserDetails(String baseUsername, String baseEmail) {
         StringUtils stringUtils = new StringUtils();
         int uniqueId = (int) (Math.random() * 10000);
-        String randomString = stringUtils.generateRandomString(5);
+        String randomString = stringUtils.generateRandomString(10);
         String username = baseUsername + uniqueId + randomString;
         String email = baseEmail.replace("@", "." + uniqueId + randomString + "@");
         return new String[]{username, email};

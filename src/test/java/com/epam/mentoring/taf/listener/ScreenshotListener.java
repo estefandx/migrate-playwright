@@ -1,6 +1,6 @@
 package com.epam.mentoring.taf.listener;
 
-import com.epam.mentoring.taf.AbstractPlayrightTest;
+
 import com.microsoft.playwright.Page;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
