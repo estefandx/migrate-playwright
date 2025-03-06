@@ -20,7 +20,7 @@ public class FollowUserSignInPlayrightTest extends AbstractPlayrightTest {
 
     @Test(groups = "UI")
     public void uiVerification() {
-        logger.info("start scenario login successfully");
+        logger.info("start scenario login successfully check jenkin");
         LoginPage loginPage = new LoginPage(page);
         loginPage.goToLoginPage();
 
