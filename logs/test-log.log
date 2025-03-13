@@ -308,3 +308,40 @@
 2025-03-02 12:31:01 [main] INFO  PlaywrightHooks - navigate to https://conduit-realworld-example-app.fly.dev/
 2025-03-02 12:31:03 [main] INFO  PlaywrightHooks - Running After Hook for the scenario:Updating the user profile
 2025-03-02 12:31:03 [main] INFO  PlaywrightHooks - closing Playwright...
+2025-03-13 17:44:41 [main] INFO  PlaywrightHooks - Running Before Hook for the scenario:User attempts to log in
+2025-03-13 17:44:41 [main] INFO  PlaywrightHooks - Inicializando Playwright...
+2025-03-13 17:44:49 [main] INFO  PlaywrightHooks - navigate to https://conduit-realworld-example-app.fly.dev/
+2025-03-13 17:44:50 [main] INFO  UserLoginUIStepDefinitions - Navigating to login page
+2025-03-13 17:44:51 [main] INFO  UserLoginUIStepDefinitions - Entering credentials: Email=tom_marvolo@example.com Password=Voldemort
+2025-03-13 17:44:51 [main] INFO  UserLoginUIStepDefinitions - Clicking login button
+2025-03-13 17:44:55 [main] INFO  PlaywrightHooks - Running After Hook for the scenario:User attempts to log in
+2025-03-13 17:44:55 [main] INFO  PlaywrightHooks - closing Playwright...
+2025-03-13 17:44:55 [main] INFO  PlaywrightHooks - Running Before Hook for the scenario:User attempts to log in
+2025-03-13 17:44:55 [main] INFO  PlaywrightHooks - Inicializando Playwright...
+2025-03-13 17:44:59 [main] INFO  PlaywrightHooks - navigate to https://conduit-realworld-example-app.fly.dev/
+2025-03-13 17:44:59 [main] INFO  UserLoginUIStepDefinitions - Navigating to login page
+2025-03-13 17:45:00 [main] INFO  UserLoginUIStepDefinitions - Entering credentials: Email=tom_marvolo@example.com Password=wrongPass
+2025-03-13 17:45:00 [main] INFO  UserLoginUIStepDefinitions - Clicking login button
+2025-03-13 17:45:00 [main] INFO  PlaywrightHooks - Running After Hook for the scenario:User attempts to log in
+2025-03-13 17:45:00 [main] INFO  PlaywrightHooks - closing Playwright...
+2025-03-13 17:52:02 [main] INFO  PlaywrightHooks - Running Before Hook for the scenario:Updating the user profile
+2025-03-13 17:52:02 [main] INFO  PlaywrightHooks - Inicializando Playwright...
+2025-03-13 17:52:08 [main] INFO  PlaywrightHooks - navigate to https://conduit-realworld-example-app.fly.dev/
+2025-03-13 17:52:10 [main] INFO  PlaywrightHooks - Running After Hook for the scenario:Updating the user profile
+2025-03-13 17:52:10 [main] INFO  PlaywrightHooks - closing Playwright...
+2025-03-13 17:52:11 [main] INFO  PlaywrightHooks - Running Before Hook for the scenario:User attempts to log in
+2025-03-13 17:52:11 [main] INFO  PlaywrightHooks - Inicializando Playwright...
+2025-03-13 17:52:13 [main] INFO  PlaywrightHooks - navigate to https://conduit-realworld-example-app.fly.dev/
+2025-03-13 17:52:14 [main] INFO  UserLoginUIStepDefinitions - Navigating to login page
+2025-03-13 17:52:14 [main] INFO  UserLoginUIStepDefinitions - Entering credentials: Email=tom_marvolo@example.com Password=Voldemort
+2025-03-13 17:52:14 [main] INFO  UserLoginUIStepDefinitions - Clicking login button
+2025-03-13 17:52:24 [main] INFO  PlaywrightHooks - Running After Hook for the scenario:User attempts to log in
+2025-03-13 17:52:24 [main] INFO  PlaywrightHooks - closing Playwright...
+2025-03-13 17:52:25 [main] INFO  PlaywrightHooks - Running Before Hook for the scenario:User attempts to log in
+2025-03-13 17:52:25 [main] INFO  PlaywrightHooks - Inicializando Playwright...
+2025-03-13 17:52:26 [main] INFO  PlaywrightHooks - navigate to https://conduit-realworld-example-app.fly.dev/
+2025-03-13 17:52:27 [main] INFO  UserLoginUIStepDefinitions - Navigating to login page
+2025-03-13 17:52:27 [main] INFO  UserLoginUIStepDefinitions - Entering credentials: Email=tom_marvolo@example.com Password=wrongPass
+2025-03-13 17:52:27 [main] INFO  UserLoginUIStepDefinitions - Clicking login button
+2025-03-13 17:52:28 [main] INFO  PlaywrightHooks - Running After Hook for the scenario:User attempts to log in
+2025-03-13 17:52:28 [main] INFO  PlaywrightHooks - closing Playwright...

@@ -10,10 +10,10 @@ public class LoginPage  extends  BasePage{
     private final String errorMessageSelector = "//ul[@class='error-messages']/li";
 
     public LoginPage(Page page) {
-        super(page); // Llamamos al constructor de la clase base
+        super(page);
     }
 
-    // Métodos específicos de la página de login
+
     public void goToLoginPage() {
         page.click(loginMenu);
     }
