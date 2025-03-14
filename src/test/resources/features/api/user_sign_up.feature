@@ -1,6 +1,7 @@
+@regression
 Feature: User SignUp API Verification
 
-  @API
+  @API @smoke
   Scenario: Registering a new user successfully
     Given I generate unique user details
     When I send a request to register the user

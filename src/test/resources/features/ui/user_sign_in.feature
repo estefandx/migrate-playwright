@@ -1,3 +1,4 @@
+@regression
 Feature: User Sign in UI
 
 

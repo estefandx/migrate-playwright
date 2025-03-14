@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/resources/features",
         glue = "com.epam.mentoring.taf.steps",
         plugin = {"pretty", "html:target/cucumber-reports.html"},
-        tags = "@test"
+        tags = "@smoke"
 )
-public class UIScenariosRunnerTest extends AbstractTestNGCucumberTests {
+public class SmokeRunnerTest extends AbstractTestNGCucumberTests {
 }

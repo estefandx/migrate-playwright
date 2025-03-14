@@ -1,7 +1,8 @@
+@regression
 Feature: User Sign in API
 
 
-  @API
+  @API @smoke
   Scenario: Successful login with valid credentials
     Given the user has the email "tom_marvolo@example.com" and password "Voldemort"
     When the user sends a login request

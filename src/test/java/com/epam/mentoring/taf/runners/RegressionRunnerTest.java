@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/resources/features",
         glue = "com.epam.mentoring.taf.steps",
         plugin = {"pretty", "html:target/cucumber-reports.html"},
-        tags = "@test"
+        tags = "@regression"
 )
-public class UIScenariosRunnerTest extends AbstractTestNGCucumberTests {
+public class RegressionRunnerTest extends AbstractTestNGCucumberTests {
 }
